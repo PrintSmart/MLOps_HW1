@@ -6,10 +6,13 @@
    ВЫПОЛНЕНО
    
 2. Создать две виртуальные машины в virtualbox: для хранения данных (data_srv), для обучения модели ML (ml_srv)
-      <img src="https://github.com/PrintSmart/MLOps_HW1/blob/main/screen/VB.JPG" />
-Установить ОС (linux, рекомендуемая Ubuntu).
-Настроить сетевые интерфейсы (NAT).
-Прокинуть порт, запустить sshd и сделать подключение по ssh.
+      <img src="https://github.com/PrintSmart/MLOps_HW1/blob/main/screen/VB.JPG" /><br />
+Установить ОС (linux, рекомендуемая Ubuntu).<br />
+ВЫПОЛНЕНО<br />
+Настроить сетевые интерфейсы (NAT).<br />
+ВЫПОЛНЕНО<br />
+Прокинуть порт, запустить sshd и сделать подключение по ssh.<br />
+ВЫПОЛНЕНО<br />
 
 3. В хранилище данных data_srv:
 
