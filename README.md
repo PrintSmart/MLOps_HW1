@@ -2,11 +2,11 @@
 
 ЭТАПЫ ВЫПОЛНЕНИЯ ЗАДАЧИ:
 
-1. Создать git репозиторий на github.com
+1. Создать git репозиторий на github.com<br />
    ВЫПОЛНЕНО
    
 2. Создать две виртуальные машины в virtualbox: для хранения данных (data_srv), для обучения модели ML (ml_srv)
-
+      <img src="https://github.com/PrintSmart/MLOps_HW1/blob/main/screen/VB.JPG" />
 Установить ОС (linux, рекомендуемая Ubuntu).
 Настроить сетевые интерфейсы (NAT).
 Прокинуть порт, запустить sshd и сделать подключение по ssh.
