@@ -92,3 +92,20 @@ stages:
     - path: evaluate/score.json
       md5: 02f3f5537c77f621cf091d9464699d30
       size: 29
+  get_features:
+    cmd: python3 scripts/data_processing/get_features.py datasets/raw/train.csv
+    deps:
+    - path: datasets/raw/train.csv
+      hash: md5
+      md5: 75ff0ee6067c81e1bf651c4bfce09e53
+      size: 65457
+    - path: scripts/data_processing/get_features.py
+      hash: md5
+      md5: 0f75cb5037194d41f2b27406a0bbaf22
+      size: 890
+    outs:
+    - path: datasets/stage1
+      hash: md5
+      md5: 26db5d3cdbe8c54795247877d6f38623.dir
+      size: 32043
+      nfiles: 1
